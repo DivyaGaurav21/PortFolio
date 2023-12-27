@@ -117,9 +117,19 @@ export const skills = [
           "https://seeklogo.com/images/D/dsa-logo-C34162EB13-seeklogo.com.png",
       },
       {
-        name: "Aptitude & Reasonining & Mathmatics",
+        name: "OOPs",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf7QtQ6HjrTZS0g0DLGcrBQelGNkP8x7d_AMqKQG0pCLhDCD_d-ecpdqbj4wjQsvYL0o4&usqp=CAU",
+      },
+      {
+        name: "Reasonining",
         image:
           "https://e7.pngegg.com/pngimages/150/649/png-clipart-quantitative-aptitude-computer-icons-chasco-elementary-school-test-scan-code-miscellaneous-android-thumbnail.png",
+      },
+      {
+        name: "Maths",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy4JU78xCuyESxTBgy6V14DLp189ez2GLxtUURJmALrg&s",
       },
     ],
   },
@@ -172,7 +182,7 @@ export const experiences = [
     role: "Freelencing Project in Startup Culture",
     company: "Trialshoppy Marketpalace Pvt. Ltd",
     date: "March 2023 - August 2023",
-    desc: "After Completing MERN Stack Developement course from Coding Ninja Career Camp , I got an Oppertunity in freelencing work on E-commerce website which was called marketplace .In which I had to make components like  shopingcard, paymentcards,model,etc,according to uidesign.Then I had to make pages in which I made image video rating review pagination comment box.In backend I had to make mongodb to bind all these and make the page responsive.",
+    desc: "Following the completion of the MERN Stack Development course at Coding Ninja Career Camp, I seized an opportunity for freelancing work on an E-commerce website, referred to as a marketplace. In this role, I was tasked with creating essential components such as shopping cards, payment cards, and modals based on the provided UI design specifications. Subsequently, I focused on building pages that included features like image display, video integration, ratings, reviews, pagination, and a comment box. On the backend, I implemented MongoDB to establish the necessary connections and ensure data binding across these components. Additionally, I made significant efforts to enhance the website's responsiveness for an optimal user experience.",
     skills: [
       "HTML",
       "CSS",
@@ -187,42 +197,45 @@ export const experiences = [
     clickhere: "https://t3.ftcdn.net/jpg/03/09/22/66/360_F_309226627_vC8ep31le1wy8fjR6ykYSvjmckJSGSQ1.jpg"
   },
   {
-    id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-    role: "Frontend Trainee Developer",
-    company: "Neurobit",
-    date: "June 2023 - Present",
-    desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
+    id: 1,
+    img: "https://media.licdn.com/dms/image/C4D0BAQH0WSVxQu0AIQ/company-logo_200_200/0/1630512821131/ipsator_logo?e=2147483647&v=beta&t=N4BnwcwwrwF_rWJz7peEDtDuFY7HUX-BKq76iDifJlE",
+    role: "Front-end Trainee Developer",
+    company: "Ipsator Analytics Pvt Ltd",
+    date: "4 September 2023 -30 November 2023 (3 months)",
+    desc: "As a Frontend Trainee Developer at Ipsator Company, I actively contributed to a variety of projects that showcase my skills and expertise. One notable project involved the implementation of Stytch for password-less user authentication, ensuring a secure and user-friendly login experience. Additionally, I played a pivotal role in the development of a blog project where Sanity CMS was utilized for efficient storage and retrieval of blog posts, streamlining content management workflows. Leveraging GA4 for advanced analytics, I provided valuable insights into user engagement, contributing to data-driven decision-making. Another significant achievement was the creation of an engaging animated homepage for Ipsator using the Astro framework, showcasing my creativity and proficiency in modern web development. Furthermore, I applied my expertise to a dynamic e-commerce website, employing Next.js for efficient front-end rendering and Tailwind CSS for visually appealing and responsive designs. In the backend, I integrated MongoDB, enhancing scalability and data management. Throughout these experiences, I collaborated effectively with cross-functional teams, demonstrating a commitment to achieving project goals and deadlines, and contributing to the overall enhancement of Ipsator's online presence through innovative web solutions.",
     skills: [
       "Next JS",
       "ReactJS",
       "Tailwind Css",
-      "",
+      "Astro",
       "HTML",
       "CSS",
       "JavaScript",
+      "TypeScript",
+      "next-auth",
+      "firebase-authentication"
     ],
     doc: "https://drive.google.com/file/d/1rxNY9iNagmqmwYnNzsAwUrXH0XHVjEqN/view?usp=drive_link",
+    clickhere: "https://t3.ftcdn.net/jpg/03/09/22/66/360_F_309226627_vC8ep31le1wy8fjR6ykYSvjmckJSGSQ1.jpg"
   },
   {
-    id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Fullstack Externship",
-    company: "Flipr",
-    date: "June 2023 - July 2023",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
+    id: 2,
+    img: "https://media.licdn.com/dms/image/C4D0BAQH0WSVxQu0AIQ/company-logo_200_200/0/1630512821131/ipsator_logo?e=2147483647&v=beta&t=N4BnwcwwrwF_rWJz7peEDtDuFY7HUX-BKq76iDifJlE",
+    role: "Junior Front-end Developer",
+    company: "Ipsator Analytics Pvt Ltd",
+    date: "30 November 2023 - Present",
+    desc: "Working on A2SEdge Project , where a Sensor is assigned to any player of the team (football , soccer , hockey) , and after session i have to import data (like heart rate , intensity , energy level etc) and send that data on cloud , At the end i have to fetch Data and Show Statistics of that data on UI. I used tanstack-query@v5 for API operation , and react-chart for showing Statistics On UI , and Second Responsibility is to Learn Codebase of IRCTC Ecatering App which is main Project of Ipsator Analystics",
     skills: [
       "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
+      "Next Js",
+      "React-Query",
+      "Tailwind CSS",
       "HTML",
       "CSS",
       "JavaScript",
-      "Docker",
-      "AWS",
-      "MongoDB",
     ],
+    doc: "https://drive.google.com/file/d/1nlAD7mL3E99VftKASIRZSIyEAzcXAvsu/view?usp=sharing",
+    clickhere: "https://t3.ftcdn.net/jpg/03/09/22/66/360_F_309226627_vC8ep31le1wy8fjR6ykYSvjmckJSGSQ1.jpg"
   }
 ];
 

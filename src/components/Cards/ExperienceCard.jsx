@@ -31,6 +31,7 @@ max-width: 100%;
 -webkit-line-clamp: 4;
 -webkit-box-orient: vertical;
 text-overflow: ellipsis;
+text-align: justify;
 `
 
 const Card = styled.div`
@@ -164,7 +165,7 @@ const ExperienceCard = ({ experience }) => {
                     <>
                         <br />
                         <Skills>
-                            <b>Skills:</b>
+                            <b>Skills Used:</b>
                             <ItemWrapper>
                                 {experience?.skills?.map((skill, index) => (
                                     <Skill>• {skill}</Skill>
@@ -175,7 +176,7 @@ const ExperienceCard = ({ experience }) => {
                 }
             </Description>
             {experience.doc &&
-                <a href={experience.doc} target="new" style={{display:"flex" , flexDirection:"row" , justifyContent:"space-between"  , background:"slateblue" , borderRadius:"10px"}}>
+                <a href={experience.doc} target="new" style={{display:"flex" , flexDirection:"row" , justifyContent:"space-between"  , background:"darkslateblue" , borderRadius:"10px"}}>
                     <Document src={experience.img} />
                     <Document src={experience.clickhere} />
                 </a>
