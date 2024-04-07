@@ -1,5 +1,5 @@
 import { ThemeProvider } from "styled-components";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { darkTheme, lightTheme } from './utils/Themes.js'
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -7,11 +7,11 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
-// import Projects from "./components/Projects";
-// import Contact from "./components/Contact";
-// import Footer from "./components/Footer";
-// import Education from "./components/Education";
-// import ProjectDetails from "./components/ProjectDetails";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Education from "./components/Education";
+import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
 
 const Body = styled.div`
@@ -39,15 +39,15 @@ function App() {
             <Skills />
             <Experience /> 
           </Wrapper>
-          {/* <Projects openModal={openModal} setOpenModal={setOpenModal} /> */}
-          {/* <Wrapper>
+          <Projects openModal={openModal} setOpenModal={setOpenModal} />
+          <Wrapper>
             <Education />
             <Contact />
-          </Wrapper> */}
-          {/* <Footer /> */}
-          {/* {openModal.state &&
+          </Wrapper>
+          <Footer />
+          {openModal.state &&
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
-          } */}
+          }
         </Body>
       </Router>
     </ThemeProvider>

@@ -1,19 +1,25 @@
+import MealHub from "../assets/projects/react-meal.webp";
+import QuizWeb from "../assets/projects/quiz-application.webp";
+import Vtube from "../assets/projects/v-tube.webp";
+import HabbitTracker from "../assets/projects/habit-tracker.webp";
+import ERS from "../assets/projects/employ-review-system.webp";
+import IpsatorBlog from "../assets/projects/ipsator-blog.webp";
+import NextEcom from "../assets/projects/next-ecom.webp";
+import IpsatorOfficial from "../assets/projects/ipsator-official.webp";
+import IrctcEcat from "../assets/projects/irctc-ecat.webp";
+
 export const Bio = {
   name: "Divya Gaurav",
-  roles: [
-    "Frontend Developer",
-    "Full Stack Developer",
-    "Programmer",
-  ],
+  roles: ["Frontend Developer", "Full Stack Developer", "Programmer"],
   description:
     " I am driven software developer who likes to take initiative in any task I am assigned. I really like learning and try my best to do things well. I stay positive and think I can always get better at what I do. I'm excited to help out and make a positive impact. I believe I can achieve great things by staying open-minded and working hard.",
   github: "https://github.com/DivyaGaurav21",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  twitter: "https://twitter.com/RishavChanda",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+    "https://drive.google.com/file/d/10D0Cmd2m2Zeubogll_KBjzCl3nnJGse_/view?usp=sharing",
+  linkedin: "https://www.linkedin.com/in/divya-gaurav-917889215/",
+  twitter: "https://www.linkedin.com/in/divya-gaurav-917889215/",
+  insta: "https://www.instagram.com/divya.gaurav.dg/",
+  facebook: "https://www.facebook.com/gaurav.divya.7528/",
 };
 
 export const skills = [
@@ -33,7 +39,7 @@ export const skills = [
       {
         name: "ReactQuery",
         image:
-          "https://res.cloudinary.com/practicaldev/image/fetch/s--7s_DLdtK--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8au58kc7e143c3bqrpz0.png",
+          "https://seeklogo.com/images/R/react-query-logo-1340EA4CE9-seeklogo.com.png",
       },
       {
         name: "Redux-Toolkit",
@@ -96,6 +102,16 @@ export const skills = [
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
+      {
+        name: "Sanity CMS",
+        image:
+          "https://user-images.githubusercontent.com/6311717/128466500-ab255917-79d9-4c40-91c4-46fbf025d6c6.png",
+      },
+      {
+        name: "Wordpress CMS",
+        image:
+          "https://s.w.org/style/images/about/WordPress-logotype-wmark-white.png",
+      },
     ],
   },
   {
@@ -104,32 +120,32 @@ export const skills = [
       {
         name: "Java",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+          "https://res.cloudinary.com/dmclzom20/image/upload/v1703915708/1200px-Java_programming_language_logo.svg_cdpesz.png",
       },
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://res.cloudinary.com/dmclzom20/image/upload/v1703915727/768px-JavaScript-logo_ojjeq1.png",
       },
       {
         name: "DSA",
         image:
-          "https://seeklogo.com/images/D/dsa-logo-C34162EB13-seeklogo.com.png",
+          "https://res.cloudinary.com/dmclzom20/image/upload/v1703915864/DSA_b9cdhj.png",
       },
       {
         name: "OOPs",
         image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf7QtQ6HjrTZS0g0DLGcrBQelGNkP8x7d_AMqKQG0pCLhDCD_d-ecpdqbj4wjQsvYL0o4&usqp=CAU",
+          "https://res.cloudinary.com/dmclzom20/image/upload/v1703915956/expression-words-design-oops-illustration-162212955_c7j4bg.jpg",
       },
       {
         name: "Reasonining",
         image:
-          "https://e7.pngegg.com/pngimages/150/649/png-clipart-quantitative-aptitude-computer-icons-chasco-elementary-school-test-scan-code-miscellaneous-android-thumbnail.png",
+          "https://res.cloudinary.com/dmclzom20/image/upload/v1703915934/IMG_5412_cec8a365-8633-4973-9cfc-d51314f7f64e_fpgcg1.jpg",
       },
       {
         name: "Maths",
         image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy4JU78xCuyESxTBgy6V14DLp189ez2GLxtUURJmALrg&s",
+          "https://res.cloudinary.com/dmclzom20/image/upload/v1703915852/math-102023-1281244731-01_ekt4o4.jpg",
       },
     ],
   },
@@ -139,37 +155,37 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "https://res.cloudinary.com/dmclzom20/image/upload/v1703915040/18133_oa4pxn.png",
       },
       {
         name: "GitHub",
         image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+          "https://res.cloudinary.com/dmclzom20/image/upload/v1703915269/GitHub-Mark-ea2971cee799_ffquww.png",
       },
       {
         name: "Versal",
         image:
-          "https://camo.githubusercontent.com/add2c9721e333f0043ac938f3dadbc26a282776e01b95b308fcaba5afaf74ae3/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313538383830353835382f7265706f7369746f726965732f76657263656c2f6c6f676f2e706e67",
+          "https://res.cloudinary.com/dmclzom20/image/upload/v1703915356/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313538383830353835382f7265706f7369746f726965732f76657263656c2f6c6f676f2e706e67_vwt36j.png",
       },
       {
         name: "Netlify",
         image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+          "https://res.cloudinary.com/dmclzom20/image/upload/v1703915452/netlify-icon-511x512-idkvcd89_s7m6vj.png",
       },
       {
         name: "VS Code",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+          "https://res.cloudinary.com/dmclzom20/image/upload/v1703915505/512px-Visual_Studio_Code_1.35_icon.svg_vkayif.png",
       },
       {
         name: "Postman",
         image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+          "https://res.cloudinary.com/dmclzom20/image/upload/v1703915469/X-rhKMndFm9hT9wIaJns1StBfGbFdLTkAROwm4UZ3n9ucrBky5CFIeeZhSszFXBgQjItzCD0SA_s900-c-k-c0x00ffffff-no-rj_jvdmdd.jpg",
       },
       {
         name: "Figma",
         image:
-          "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+          "https://res.cloudinary.com/dmclzom20/image/upload/v1703915624/apps-figma-icon-2048x2048-ctjj5ab7_qbqxi4.png",
       },
     ],
   },
@@ -194,7 +210,8 @@ export const experiences = [
       "EXPRESS JS",
     ],
     doc: "https://drive.google.com/file/d/1tPV8ZrsTlZWiK0NoSRbJUIRnH4Wnlxns/view?usp=drive_link",
-    clickhere: "https://t3.ftcdn.net/jpg/03/09/22/66/360_F_309226627_vC8ep31le1wy8fjR6ykYSvjmckJSGSQ1.jpg"
+    clickhere:
+      "https://t3.ftcdn.net/jpg/03/09/22/66/360_F_309226627_vC8ep31le1wy8fjR6ykYSvjmckJSGSQ1.jpg",
   },
   {
     id: 1,
@@ -213,10 +230,11 @@ export const experiences = [
       "JavaScript",
       "TypeScript",
       "next-auth",
-      "firebase-authentication"
+      "firebase-authentication",
     ],
     doc: "https://drive.google.com/file/d/1rxNY9iNagmqmwYnNzsAwUrXH0XHVjEqN/view?usp=drive_link",
-    clickhere: "https://t3.ftcdn.net/jpg/03/09/22/66/360_F_309226627_vC8ep31le1wy8fjR6ykYSvjmckJSGSQ1.jpg"
+    clickhere:
+      "https://t3.ftcdn.net/jpg/03/09/22/66/360_F_309226627_vC8ep31le1wy8fjR6ykYSvjmckJSGSQ1.jpg",
   },
   {
     id: 2,
@@ -224,7 +242,7 @@ export const experiences = [
     role: "Junior Front-end Developer",
     company: "Ipsator Analytics Pvt Ltd",
     date: "30 November 2023 - Present",
-    desc: "Working on A2SEdge Project , where a Sensor is assigned to any player of the team (football , soccer , hockey) , and after session i have to import data (like heart rate , intensity , energy level etc) and send that data on cloud , At the end i have to fetch Data and Show Statistics of that data on UI. I used tanstack-query@v5 for API operation , and react-chart for showing Statistics On UI , and Second Responsibility is to Learn Codebase of IRCTC Ecatering App which is main Project of Ipsator Analystics",
+    desc: "In my role for the A2SEdge project, I contributed significantly to the development of a sensor integration system for football, soccer, and hockey teams. Responsible for assigning sensors to players, I facilitated the capture and processing of crucial performance metrics such as heart rate, intensity, and energy levels during training sessions. Using tanstack-query@v5 for streamlined API operations, I ensured the efficient importation of this data to a cloud-based storage system. Employing react-chart for UI development, I created intuitive visualizations, presenting comprehensive statistics to coaches and team members. Concurrently, I undertook a learning journey with Ipsator Analytics, delving into the IRCTC Ecatering App's codebase, positioning myself for future contributions to this flagship project. This dual experience enabled me to navigate complex technical challenges and deliver impactful solutions.",
     skills: [
       "ReactJS",
       "Next Js",
@@ -235,230 +253,216 @@ export const experiences = [
       "JavaScript",
     ],
     doc: "https://drive.google.com/file/d/1nlAD7mL3E99VftKASIRZSIyEAzcXAvsu/view?usp=sharing",
-    clickhere: "https://t3.ftcdn.net/jpg/03/09/22/66/360_F_309226627_vC8ep31le1wy8fjR6ykYSvjmckJSGSQ1.jpg"
-  }
+    clickhere:
+      "https://t3.ftcdn.net/jpg/03/09/22/66/360_F_309226627_vC8ep31le1wy8fjR6ykYSvjmckJSGSQ1.jpg",
+  },
 ];
 
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-    school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-    date: "Oct 2021 - Sep 2025",
-    grade: "8.71 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    img: "https://res.cloudinary.com/dmclzom20/image/upload/v1703916803/95929948_kmuv30.jpg",
+    school: "NATIONAL INSTITUTE OF TECHNOLOGY PATNA",
+    date: "SEPTEMBER 2021",
+    grade: "6.54 CGPA",
+    desc: "I hold a Bachelor of Technology degree from NIT Patna with a specialization in Electrical Engineering. Despite my academic focus on Electrical Engineering, my passion for coding led me to delve into various aspects of computer science. Over the course of eight semesters, I maintained a commendable CGPA of 6.54. My academic journey included in-depth studies in computer languages such as Java and Python, emphasizing Object-Oriented Programming principles. Additionally, I acquired proficiency in Database Management Systems and Operating Systems. Complementing my theoretical knowledge, I actively engaged in practical applications through the development of both minor and major projects. In tandem with my academic pursuits, I participated in co-curricular activities that provided me with a holistic understanding of software development. This multifaceted experience has equipped me with a robust foundation in coding, problem-solving skills, and the ability to contribute effectively to software development endeavors.",
+    degree: "Bachelor of Technology - BTech, Electrical Engineering",
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2019 - Apr 2025",
-    grade: "88.2%",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-    degree: "ISC(XII), Science with Computer",
+    img: "https://res.cloudinary.com/dmclzom20/image/upload/v1703917201/Samastipur-College-List_ncln2d.jpg",
+    school: "B.R.B +2 High Schcool Andaur, samastipur",
+    date: "may 2017",
+    grade: "71.2%",
+    desc: "I successfully completed my secondary education at B.R.B +2 High School Andaur, Samastipur. During this period, I pursued a rigorous academic curriculum with a focus on the Science stream, majoring in Physics, Chemistry, and Mathematics. This comprehensive course not only provided me with a strong foundation in these core subjects but also honed my analytical and problem-solving skills. I am proud to have graduated from an institution that prioritizes academic excellence and prepares students for future challenges in the field of science and technology.",
+    degree: "Intermediate, Science with physics chemistry and mathmatics",
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2017 - Apr 2019",
-    grade: "92.3%",
-    desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-    degree: "ICSC(X), Science with Computer",
+    img: "https://res.cloudinary.com/dmclzom20/image/upload/v1703916943/1BD6CFD3-EECF-44CE-BD45-E616C9F42E06_k0ka7c.jpg",
+    school: " CODING NINJA CAREER CAMP",
+    date: "Jan 2021 - Feb 2022",
+    grade: "A+",
+    desc: "I have successfully completed the Full Stack (MERN) program at Coding Ninja Career Camp, where I gained comprehensive knowledge in Java and JavaScript, coupled with a strong understanding of data structures and algorithms. My proficiency extends to developing intricate user interfaces using React, building robust backend APIs with Node Express, and effectively utilizing databases such as MongoDB and MySQL.Throughout the program, I successfully undertook a range of projects, demonstrating my skills across various domains. Notable projects include a food ordering web application developed in React, an employee review system with an integrated admin panel, a habit tracker, and applications resembling YouTube and a music player. These experiences have equipped me with a profound aptitude for software development, enabling me to navigate complexities and deliver innovative solutions.I am confident in my ability to contribute effectively to dynamic projects, leveraging my expertise in the MERN stack, strong problem-solving skills, and a keen understanding of development principles.",
+    degree: "MERN STACK DEVELOPER",
   },
 ];
 
 export const projects = [
   {
-    id: 9,
-    title: "Trackify",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-    tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-    ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify.duckdns.org",
-  },
-  {
     id: 0,
-    title: "Podstream",
-    date: "Apr 2023 - May 2023",
+    title: "E-Commerce Meal-Hub",
+    date: "Jan 2023 - feb 2023",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
+      "It is a React & Redux Based Real World Project, Ecommerce Website (MEAL HUB). where user can buy food receipy and a Restaurent owner able to sell their Restaurent's Food Items.Any User can add, remove , update ,delete (crud operation) receipy in cart. in Other hand ,Restaurent owner who want to sell their food item , they will able to add , update , and delete their receipy. if user click on theire desire receipy , they were able to see receipy details such as restorent name , receipy name, rating , price , overview etc... with recommended similar items at bottom",
+    image: MealHub,
+    tags: [
+      "html5",
+      "css3",
+      "vanilla-js",
+      "rest-api",
+      "reactjs",
+      "jsx",
+      "hooks",
+      " react-router-dom",
+      " material-ui",
+      " react-bootstrap",
+      "redux-toolkit",
     ],
+    category: "web app",
+    github: "https://github.com/DivyaGaurav21/Ecoomerce-React-App",
+    webapp: "https://ecommerce-meal.netlify.app/",
   },
   {
     id: 1,
-    title: "Vexa",
-    date: "Oct 2022 - Present",
+    title: "Quiz Web Application",
+    date: "feb 2023 - march 2023",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+      "The React Quiz App is a web application designed to facilitate taking various quiz tests. It provides users with an interactive platform to answer questions, receive immediate feedback, and view their scores upon completion. The application is built using React.js, providing a dynamic and responsive user interface.",
+    image: QuizWeb,
     tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
+      "react",
+      "react-router",
+      "jsx",
+      "html-css-javascript",
+      "hooks: usestate useref usereducer useeffect",
+      "fake-api-json-server",
     ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
+    category: "Quiz-App",
+    github: "https://github.com/DivyaGaurav21/React-Quiz",
+    webapp: "https://dg-quiz.netlify.app/",
   },
   {
     id: 2,
-    title: "Brain Tumor Detection",
-    date: "Jan 2023 - Mar 2023",
+    title: "V-Tube",
+    date: "april 2023 - june 2023",
     description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-    image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "https://brain-tumor.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
+      "Created a YouTube-like platform, which can display and play videos, search and browse video content, and manage user accounts. The project uses the React library as its frontend framework, which allows for building a responsive, dynamic user interface with reusable components. Material UI is used as the design system to provide a consistent look and feel throughout the application. This helps to create a modern and intuitive user experience. In addition, the YouTube API is integrated into the project, allowing users to search for videos and view their details such as title, description, and duration. Users can also play videos directly from the app and browse related content.",
+    image: Vtube,
+    tags: [
+      "html-css-js",
+      "React",
+      "hooks: usestate useref usereducer useeffect",
+      "javaScript",
+      "Material UI",
+      "Rapid API",
     ],
+    category: "web app",
+    github: "https://github.com/DivyaGaurav21/vidTube",
+    webapp: "https://divyagaurav-vtube.netlify.app/",
   },
   {
     id: 3,
-    title: "Buckoid",
-    date: "Dec 2021 - Apr 2022",
+    title: "Habbit-Tracker",
+    date: "June 2023 - july 2023",
     description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-    image:
-      "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-    tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-    category: "android app",
+      "The Habit Tracker is a web application designed to help authenticated users track their daily and weekly habits. It provides users with a simple and intuitive platform to set, monitor, and visualize their progress towards achieving their desired habits. The application is built using Node.js, Express.js, MongoDB, and EJS templating engine, offering a seamless user experience",
+    image: HabbitTracker,
+    tags: [
+      "html5-css3-Js",
+      "node js",
+      "express js",
+      "nodemon",
+      "mongo db",
+      "ejs - template engine",
+    ],
+    category: "web-app",
+    github: "https://github.com/DivyaGaurav21/habbit_tracker_nodejs",
+    webapp: "http://habit-tracker-dg.onrender.com/",
+  },
+  {
+    id: 4,
+    title: "Employ Review System",
+    date: "July 2023 - August 2023",
+    description:
+      "In This project a employee can give review to each other based upon their behaviour and work. Only the Admin can see the reviews and give authority to employee who they review . The Purpose of this project is to create a good work environment by improve feedback",
+    image: ERS,
+    tags: [
+      " Node js",
+      " Express",
+      " MongoDB",
+      "EJS - template-engine",
+      " Passport-locals",
+      "Authentication/Authorization",
+    ],
+    category: "mobile app",
     github: "https://github.com/rishavchanda/Buckoid-Android-App",
     webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
   },
   {
-    id: 10,
-    title: "Job Finding App",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: ["React Native", "JavaScript", "Axios"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Job-finder-App",
-    webapp: "https://github.com/rishavchanda/Job-finder-App",
-  },
-  {
-    id: 4,
-    title: "Whatsapp Clone",
-    date: "Jul 2021",
-    description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-    webapp: "https://whatsapp-clone-rishav.web.app",
-  },
-  {
     id: 5,
-    title: "Todo Web App",
-    date: "Jun 2021",
+    title: "Ipsator Blog Page",
+    date: "sep 2023 - oct 2023",
     description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-    image:
-      "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
+      "The IPSator Blog Web Application is a modern blogging platform that leverages various technologies to provide a seamless user experience. The project combines Stytch for passwordless user authentication, Sanity CMS for storing and fetching blog posts, and Google Analytics 4 (GA4) for analytics. The primary objectives of the project are to implement passwordless authentication, manage blog content efficiently, and track user activity for insights",
+    image: IpsatorBlog,
+    tags: [
+      " Stytch for passwordless user authentication",
+      " Use Sanity CMS for storing and fetching blog posts",
+      "Google analytics (GA4)",
+      "Next Js",
+      "Tailwind CSS",
+    ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Todo-Web-App",
-    webapp: "https://rishav-react-todo.netlify.app/",
+    github: "https://github.com/DivyaGaurav21/ipsator-blog",
+    webapp: "https://github.com/DivyaGaurav21/ipsator-blog",
   },
   {
     id: 6,
-    title: "Breaking Bad",
-    date: "Jun 2021",
+    title: "Next-Ecommerce",
+    date: "nov 2023 - dec 2023",
     description:
-      "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-    image:
-      "https://camo.githubusercontent.com/cd07010cbeb90cb1b43a5d6162784326aef02210ef7d41a0f9ae043b3e392378/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-    tags: ["React Js", "API", "Axios", "Node JS"],
+      "The E-Commerce Website Development project aims to create a comprehensive and user-friendly online platform for buying and selling products. Leveraging a full-stack approach, the project utilizes Firebase Authentication for secure user authentication, MongoDB for efficient data storage, and Next.js with Tailwind CSS for frontend development. The key objectives include implementing robust authentication, seamless data management, and essential features such as filtering, pagination, and cart management.",
+    image: NextEcom,
+    tags: [
+      "React Js",
+      "Next Js",
+      "firebase authentication",
+      "Rest API",
+      "Mongo DB",
+      "Tailwind CSS",
+    ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Breaking-Bad",
-    webapp: "https://breaking-bad-webapp.netlify.app",
+    github: "https://github.com/DivyaGaurav21/next-ecommerce",
+    webapp: "https://github.com/DivyaGaurav21/next-ecommerce",
   },
   {
     id: 7,
-    title: "Quiz App",
-    date: "Dec 2020 - Jan 2021",
+    title: "Ipsator Official Page",
+    date: "feb 2024 - mar 2024",
     description:
-      "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-    image:
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-    tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Quiz-Earn",
-    webapp: "https://github.com/rishavchanda/Quiz-Earn",
+      "The Company Official Website Development project focuses on creating a modern and informative website that showcases the details and offerings of the company. Leveraging a combination of technologies including HTML, CSS, JavaScript, TypeScript, Astro JS, React JS, Tailwind CSS, Swiper JS, and Figma, the project aims to deliver a visually appealing, interactive, and user-friendly web platform",
+    image: IpsatorOfficial,
+    tags: [
+      "html-css-js",
+      "TypeScript",
+      "Astro JS",
+      "React JS",
+      "Tailwind CSS",
+      "Swiper JS",
+      "Figma",
+    ],
+    category: "web app",
+    github: "https://github.com/DivyaGaurav21",
+    webapp: "https://ipsator-www.vercel.app/",
   },
   {
     id: 8,
-    title: "Face Recognition",
-    date: "Jan 2021",
-    description:
-      "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-    image:
-      "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+    title: "IRCTC E-Catering Web Application",
+    date: "March 2024 - Continue",
+    description:"IRCTC-Ecat is a flagship project of our organization aimed at revolutionizing the onboard dining experience for train passengers across various regions of India. The platform facilitates seamless meal ordering and delivery services through both web and mobile applications, providing passengers with convenient access to quality meals during their train journeys. Under the guidance of senior team members, our team members are working on different aspects of the application to ensure its successful implementation and operation",
+    image: IrctcEcat,
+    tags: [
+      "React Js",
+      "Next JS",
+      "REST API",
+      "COntext API",
+      "TanStack/React-Query",
+      "more diffrent tech used"
+    ],
+    category: "web app",
+    github: "https://github.com/DivyaGaurav21",
+    webapp: "https://www.ecatering.irctc.co.in/",
   },
 ];
 
