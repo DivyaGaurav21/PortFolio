@@ -1,3 +1,39 @@
+// skills
+import reactImg from "../assets/skillImages/react.webp";
+import nexttImg from "../assets/skillImages/next.webp";
+import rtkImg from "../assets/skillImages/rtk.webp";
+import reduxImg from "../assets/skillImages/redux.webp";
+import htmlImg from "../assets/skillImages/html.webp";
+import cssImg from "../assets/skillImages/css.webp";
+import jsImg from "../assets/skillImages/js.webp";
+import tailwindImg from "../assets/skillImages/tailwind.webp";
+import materialUiImg from "../assets/skillImages/material.webp";
+
+import nodeJsImg from "../assets/skillImages/nodejs.webp";
+import expressImg from "../assets/skillImages/express.webp";
+import graphQlImg from "../assets/skillImages/graphql.webp";
+import mySqlImg from "../assets/skillImages/mysql.webp";
+import mongoDbImg from "../assets/skillImages/mongodb.webp";
+import firebaseImg from "../assets/skillImages/firebase.webp";
+import sanityImg from "../assets/skillImages/sanity.webp";
+import wordpressImg from "../assets/skillImages/wordpress.webp";
+
+import javaImg from "../assets/skillImages/java.webp";
+import typescriptImg from "../assets/skillImages/ts.webp";
+import dsaImg from "../assets/skillImages/dsa.webp";
+import oopsImg from "../assets/skillImages/oops.webp";
+import reasoningImg from "../assets/skillImages/reasoning.webp";
+import mathImg from "../assets/skillImages/maths.webp";
+
+import gitImg from "../assets/skillImages/git.webp";
+import githubImg from "../assets/skillImages/github.webp";
+import vercelImg from "../assets/skillImages/versal.webp";
+import netlifyImg from "../assets/skillImages/netlify.webp";
+import vscodeImg from "../assets/skillImages/vscode.webp";
+import postmanImg from "../assets/skillImages/postman.webp";
+import figmaImg from "../assets/skillImages/figma.webp";
+
+// projects
 import MealHub from "../assets/projects/react-meal.webp";
 import QuizWeb from "../assets/projects/quiz-application.webp";
 import Vtube from "../assets/projects/v-tube.webp";
@@ -7,6 +43,16 @@ import IpsatorBlog from "../assets/projects/ipsator-blog.webp";
 import NextEcom from "../assets/projects/next-ecom.webp";
 import IpsatorOfficial from "../assets/projects/ipsator-official.webp";
 import IrctcEcat from "../assets/projects/irctc-ecat.webp";
+
+//experience
+import trialShopy from "../assets/experience/trialshoppy_logo.webp";
+import ipsator from "../assets/experience/ipsator_logo.webp";
+import clickhere from "../assets/experience/clickhere.webp";
+
+//education
+import cn from "../assets/education/cn.webp";
+import nitp from "../assets/education/nitp.webp";
+import brb from "../assets/education/brb.webp";
 
 export const Bio = {
   name: "Divya Gaurav",
@@ -28,47 +74,39 @@ export const skills = [
     skills: [
       {
         name: "React Js",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+        image: reactImg,
       },
       {
         name: "Next Js",
-        image:
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
+        image: nexttImg,
       },
       {
         name: "ReactQuery",
-        image:
-          "https://seeklogo.com/images/R/react-query-logo-1340EA4CE9-seeklogo.com.png",
+        image: rtkImg,
       },
       {
         name: "Redux-Toolkit",
-        image:
-          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
+        image: reduxImg,
       },
       {
         name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+        image: htmlImg,
       },
       {
         name: "CSS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+        image: cssImg,
       },
       {
         name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+        image: jsImg,
       },
       {
         name: "Tailwind CSS",
-        image:
-          "https://static-00.iconduck.com/assets.00/tailwind-css-icon-512x307-1v56l8ed.png",
+        image: tailwindImg,
       },
       {
         name: "Material UI",
-        image:
-          "https://static-00.iconduck.com/assets.00/material-ui-icon-2048x1626-on580ia9.png",
+        image: materialUiImg,
       },
     ],
   },
@@ -77,40 +115,35 @@ export const skills = [
     skills: [
       {
         name: "Node Js",
-        image: "https://nodejs.org/static/images/logo.svg",
+        image: nodeJsImg,
       },
       {
         name: "Express Js",
-        image:
-          "https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png",
+        image: expressImg,
       },
       {
         name: "Graph Ql",
-        image: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
+        image: graphQlImg,
       },
       {
         name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+        image: mySqlImg,
       },
       {
         name: "MongoDB",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+        image: mongoDbImg,
       },
       {
         name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+        image: firebaseImg,
       },
       {
         name: "Sanity CMS",
-        image:
-          "https://user-images.githubusercontent.com/6311717/128466500-ab255917-79d9-4c40-91c4-46fbf025d6c6.png",
+        image: sanityImg,
       },
       {
         name: "Wordpress CMS",
-        image:
-          "https://s.w.org/style/images/about/WordPress-logotype-wmark-white.png",
+        image: wordpressImg,
       },
     ],
   },
@@ -119,33 +152,31 @@ export const skills = [
     skills: [
       {
         name: "Java",
-        image:
-          "https://res.cloudinary.com/dmclzom20/image/upload/v1703915708/1200px-Java_programming_language_logo.svg_cdpesz.png",
+        image: javaImg,
+      },
+      {
+        name: "typeScript",
+        image: typescriptImg,
       },
       {
         name: "JavaScript",
-        image:
-          "https://res.cloudinary.com/dmclzom20/image/upload/v1703915727/768px-JavaScript-logo_ojjeq1.png",
+        image: jsImg,
       },
       {
         name: "DSA",
-        image:
-          "https://res.cloudinary.com/dmclzom20/image/upload/v1703915864/DSA_b9cdhj.png",
+        image: dsaImg,
       },
       {
         name: "OOPs",
-        image:
-          "https://res.cloudinary.com/dmclzom20/image/upload/v1703915956/expression-words-design-oops-illustration-162212955_c7j4bg.jpg",
+        image: oopsImg,
       },
       {
         name: "Reasonining",
-        image:
-          "https://res.cloudinary.com/dmclzom20/image/upload/v1703915934/IMG_5412_cec8a365-8633-4973-9cfc-d51314f7f64e_fpgcg1.jpg",
+        image: reasoningImg,
       },
       {
         name: "Maths",
-        image:
-          "https://res.cloudinary.com/dmclzom20/image/upload/v1703915852/math-102023-1281244731-01_ekt4o4.jpg",
+        image: mathImg,
       },
     ],
   },
@@ -154,38 +185,31 @@ export const skills = [
     skills: [
       {
         name: "Git",
-        image:
-          "https://res.cloudinary.com/dmclzom20/image/upload/v1703915040/18133_oa4pxn.png",
+        image: gitImg,
       },
       {
         name: "GitHub",
-        image:
-          "https://res.cloudinary.com/dmclzom20/image/upload/v1703915269/GitHub-Mark-ea2971cee799_ffquww.png",
+        image: githubImg,
       },
       {
         name: "Versal",
-        image:
-          "https://res.cloudinary.com/dmclzom20/image/upload/v1703915356/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313538383830353835382f7265706f7369746f726965732f76657263656c2f6c6f676f2e706e67_vwt36j.png",
+        image: vercelImg,
       },
       {
         name: "Netlify",
-        image:
-          "https://res.cloudinary.com/dmclzom20/image/upload/v1703915452/netlify-icon-511x512-idkvcd89_s7m6vj.png",
+        image: netlifyImg,
       },
       {
         name: "VS Code",
-        image:
-          "https://res.cloudinary.com/dmclzom20/image/upload/v1703915505/512px-Visual_Studio_Code_1.35_icon.svg_vkayif.png",
+        image: vscodeImg,
       },
       {
         name: "Postman",
-        image:
-          "https://res.cloudinary.com/dmclzom20/image/upload/v1703915469/X-rhKMndFm9hT9wIaJns1StBfGbFdLTkAROwm4UZ3n9ucrBky5CFIeeZhSszFXBgQjItzCD0SA_s900-c-k-c0x00ffffff-no-rj_jvdmdd.jpg",
+        image: postmanImg,
       },
       {
         name: "Figma",
-        image:
-          "https://res.cloudinary.com/dmclzom20/image/upload/v1703915624/apps-figma-icon-2048x2048-ctjj5ab7_qbqxi4.png",
+        image: figmaImg,
       },
     ],
   },
@@ -194,7 +218,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/C4D0BAQFq32v2aw88sg/company-logo_200_200/0/1677512225074/trialshoppy_logo?e=2147483647&v=beta&t=hvdGQXgccU7isobE4zN5KGjTsyry5qxwnjRbSWf-gYQ",
+    img: trialShopy,
     role: "Freelencing Project in Startup Culture",
     company: "Trialshoppy Marketpalace Pvt. Ltd",
     date: "March 2023 - August 2023",
@@ -210,12 +234,11 @@ export const experiences = [
       "EXPRESS JS",
     ],
     doc: "https://drive.google.com/file/d/1tPV8ZrsTlZWiK0NoSRbJUIRnH4Wnlxns/view?usp=drive_link",
-    clickhere:
-      "https://t3.ftcdn.net/jpg/03/09/22/66/360_F_309226627_vC8ep31le1wy8fjR6ykYSvjmckJSGSQ1.jpg",
+    clickhere: clickhere,
   },
   {
     id: 1,
-    img: "https://media.licdn.com/dms/image/C4D0BAQH0WSVxQu0AIQ/company-logo_200_200/0/1630512821131/ipsator_logo?e=2147483647&v=beta&t=N4BnwcwwrwF_rWJz7peEDtDuFY7HUX-BKq76iDifJlE",
+    img: ipsator,
     role: "Front-end Trainee Developer",
     company: "Ipsator Analytics Pvt Ltd",
     date: "4 September 2023 -30 November 2023 (3 months)",
@@ -233,16 +256,15 @@ export const experiences = [
       "firebase-authentication",
     ],
     doc: "https://drive.google.com/file/d/1rxNY9iNagmqmwYnNzsAwUrXH0XHVjEqN/view?usp=drive_link",
-    clickhere:
-      "https://t3.ftcdn.net/jpg/03/09/22/66/360_F_309226627_vC8ep31le1wy8fjR6ykYSvjmckJSGSQ1.jpg",
+    clickhere: clickhere,
   },
   {
     id: 2,
-    img: "https://media.licdn.com/dms/image/C4D0BAQH0WSVxQu0AIQ/company-logo_200_200/0/1630512821131/ipsator_logo?e=2147483647&v=beta&t=N4BnwcwwrwF_rWJz7peEDtDuFY7HUX-BKq76iDifJlE",
-    role: "Junior Front-end Developer",
+    img: ipsator,
+    role: "Front-end Developer",
     company: "Ipsator Analytics Pvt Ltd",
     date: "30 November 2023 - Present",
-    desc: "In my role for the A2SEdge project, I contributed significantly to the development of a sensor integration system for football, soccer, and hockey teams. Responsible for assigning sensors to players, I facilitated the capture and processing of crucial performance metrics such as heart rate, intensity, and energy levels during training sessions. Using tanstack-query@v5 for streamlined API operations, I ensured the efficient importation of this data to a cloud-based storage system. Employing react-chart for UI development, I created intuitive visualizations, presenting comprehensive statistics to coaches and team members. Concurrently, I undertook a learning journey with Ipsator Analytics, delving into the IRCTC Ecatering App's codebase, positioning myself for future contributions to this flagship project. This dual experience enabled me to navigate complex technical challenges and deliver impactful solutions.",
+    desc: "In my role for the A2SEdge project, I contributed significantly to the development of a sensor integration system for football, soccer, and hockey teams. Responsible for assigning sensors to players, I facilitated the capture and processing of crucial performance metrics such as heart rate, intensity, and energy levels during training sessions. Using tanstack-query@v5 for streamlined API operations, I ensured the efficient importation of this data to a cloud-based storage system. Employing react-chart for UI development, I created intuitive visualizations, presenting comprehensive statistics to coaches and team members. Concurrently, I undertook a learning journey with Ipsator Analytics, delving into the IRCTC Ecatering App's codebase, positioning myself for future contributions to this flagship project. This dual experience enabled me to navigate complex technical challenges and deliver impactful solutions.in IRCTC project i have been created custom hooks , fetching information from API, and created menu items list , and custamisation , or giving a diffrent theme of web application based on the url query parameter , etc. and now continued worked on it",
     skills: [
       "ReactJS",
       "Next Js",
@@ -253,15 +275,14 @@ export const experiences = [
       "JavaScript",
     ],
     doc: "https://drive.google.com/file/d/1nlAD7mL3E99VftKASIRZSIyEAzcXAvsu/view?usp=sharing",
-    clickhere:
-      "https://t3.ftcdn.net/jpg/03/09/22/66/360_F_309226627_vC8ep31le1wy8fjR6ykYSvjmckJSGSQ1.jpg",
+    clickhere: clickhere,
   },
 ];
 
 export const education = [
   {
     id: 0,
-    img: "https://res.cloudinary.com/dmclzom20/image/upload/v1703916803/95929948_kmuv30.jpg",
+    img: nitp,
     school: "NATIONAL INSTITUTE OF TECHNOLOGY PATNA",
     date: "SEPTEMBER 2021",
     grade: "6.54 CGPA",
@@ -270,7 +291,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://res.cloudinary.com/dmclzom20/image/upload/v1703917201/Samastipur-College-List_ncln2d.jpg",
+    img: brb,
     school: "B.R.B +2 High Schcool Andaur, samastipur",
     date: "may 2017",
     grade: "71.2%",
@@ -279,7 +300,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://res.cloudinary.com/dmclzom20/image/upload/v1703916943/1BD6CFD3-EECF-44CE-BD45-E616C9F42E06_k0ka7c.jpg",
+    img: cn,
     school: " CODING NINJA CAREER CAMP",
     date: "Jan 2021 - Feb 2022",
     grade: "A+",
@@ -450,15 +471,16 @@ export const projects = [
     id: 8,
     title: "IRCTC E-Catering Web Application",
     date: "March 2024 - Continue",
-    description:"IRCTC-Ecat is a flagship project of our organization aimed at revolutionizing the onboard dining experience for train passengers across various regions of India. The platform facilitates seamless meal ordering and delivery services through both web and mobile applications, providing passengers with convenient access to quality meals during their train journeys. Under the guidance of senior team members, our team members are working on different aspects of the application to ensure its successful implementation and operation",
+    description:
+      "IRCTC-Ecat is a flagship project of our organization aimed at revolutionizing the onboard dining experience for train passengers across various regions of India. The platform facilitates seamless meal ordering and delivery services through both web and mobile applications, providing passengers with convenient access to quality meals during their train journeys. Under the guidance of senior team members, our team members are working on different aspects of the application to ensure its successful implementation and operation",
     image: IrctcEcat,
     tags: [
       "React Js",
       "Next JS",
       "REST API",
-      "COntext API",
+      "Context API",
       "TanStack/React-Query",
-      "more diffrent tech used"
+      "more diffrent tech used",
     ],
     category: "web app",
     github: "https://github.com/DivyaGaurav21",
