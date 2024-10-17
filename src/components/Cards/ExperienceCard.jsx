@@ -175,12 +175,7 @@ const ExperienceCard = ({ experience }) => {
                     </>
                 }
             </Description>
-            {experience.doc &&
-                <a href={experience.doc} target="new" style={{display:"flex" , flexDirection:"row" , justifyContent:"space-between"  , background:"darkslateblue" , borderRadius:"10px"}}>
-                    <Document src={experience.img} />
-                    <Document src={experience.clickhere} />
-                </a>
-            }
+
         </Card>
     )
 }
