@@ -97,9 +97,10 @@ export const Img = styled.img`
   width: 100%;
   height: 100%;
   max-width: 400px;
-  max-height: 400px;
+  min-height: 400px;
+  object-fit: cover;
   border-radius: 50%;
-  border: 2px solid ${({ theme }) => theme.primary};
+  border: 2px solid #fff;
 
   @media (max-width: 768px) {
     max-width: 400px;
@@ -108,7 +109,7 @@ export const Img = styled.img`
 
   @media (max-width: 640px) {
     max-width: 280px;
-    max-height: 280px;
+    min-height: 280px;
   }
 `;
 
@@ -146,7 +147,7 @@ export const TextLoop = styled.div`
 `;
 
 export const Span = styled.span`
-  color: ${({ theme }) => theme.primary};
+  color: #f15e00;
   cursor: pointer;
 `;
 
@@ -167,38 +168,33 @@ export const SubTitle = styled.div`
 `;
 
 export const ResumeButton = styled.a`
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    text-decoration: none;
-    width: 95%;
-    max-width: 300px;
-    text-align: center;
-    padding: 16px 0;
-    color:${({ theme }) => theme.white};
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: 600;
-    transition: all 0.2s ease-in-out !important;
-    background: hsla(271, 100%, 50%, 1);
-    background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    box-shadow:  20px 20px 60px #1F2634,
-    -20px -20px 60px #1F2634;
-    &:hover {
-        transform: scale(1.05);
-    transition: all 0.4s ease-in-out;
-    box-shadow:  20px 20px 60px #1F2634,
-    filter: brightness(1);
-    }    
-    
-    
-    @media (max-width: 640px) {
-        padding: 12px 0;
-        font-size: 18px;
-    } 
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  width: 95%;
+  max-width: 300px;
+  text-align: center;
+  padding: 16px 0;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  
+  background: linear-gradient(225deg, #ff9800 0%, #ff5722 100%);
+  
+  box-shadow: 0 8px 24px rgba(255, 87, 34, 0.35);
 
+  &:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+    box-shadow: 0 12px 28px rgba(255, 87, 34, 0.45);
+  }
+
+  @media (max-width: 640px) {
+    padding: 12px 0;
+    font-size: 18px;
+  }
 `;
-

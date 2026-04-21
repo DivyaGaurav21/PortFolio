@@ -36,7 +36,7 @@ font-size: 42px;
 text-align: center;
 font-weight: 600;
 margin-top: 20px;
-  color: ${({ theme }) => theme.text_primary};
+  color: #f15e00;
   @media (max-width: 768px) {
       margin-top: 12px;
       font-size: 32px;
@@ -105,20 +105,34 @@ const ContactInputMessage = styled.textarea`
 
 const ContactButton = styled.input`
   width: 100%;
-  text-decoration: none;
   text-align: center;
-  background: hsla(271, 100%, 50%, 1);
-  background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+
+  background: linear-gradient(135deg, #ff7a00 0%, #ffb347 100%);
+  
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;
   border: none;
-  color: ${({ theme }) => theme.text_primary};
+
+  color: #fff;
   font-size: 18px;
   font-weight: 600;
-`
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  box-shadow: 0 4px 12px rgba(255, 122, 0, 0.4);
+
+  &:hover {
+    background: linear-gradient(135deg, #ff8c1a 0%, #ffc266 100%);
+    box-shadow: 0 6px 18px rgba(255, 122, 0, 0.5);
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    transform: scale(0.98);
+  }
+`;
 
 
 

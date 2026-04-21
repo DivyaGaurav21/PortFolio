@@ -43,7 +43,7 @@ font-size: 42px;
 text-align: center;
 font-weight: 600;
 margin-top: 20px;
-  color: ${({ theme }) => theme.text_primary};
+  color: #f15e00;
   @media (max-width: 768px) {
       margin-top: 12px;
       font-size: 32px;
@@ -93,8 +93,8 @@ const index = () => {
                                     <EducationCard education={education}/>
                                 </TimelineContent>
                                 <TimelineSeparator>
-                                    <TimelineDot variant="outlined" color="secondary" />
-                                    {index !== experiences.length  && <TimelineConnector style={{ background: '#854CE6' }} />}
+                                    <TimelineDot variant="outlined" color="warning" />
+                                    {index !== experiences.length  && <TimelineConnector style={{ background: '#f15e00' }} />}
                                 </TimelineSeparator>
                             </TimelineItem>
                         ))}

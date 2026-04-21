@@ -30,7 +30,7 @@ font-size: 42px;
 text-align: center;
 font-weight: 600;
 margin-top: 20px;
-  color: ${({ theme }) => theme.text_primary};
+  color: #f15e00;
   @media (max-width: 768px) {
 margin-top: 12px;
       font-size: 32px;
@@ -60,8 +60,10 @@ const Skill = styled.div`
   width: 100%;
   max-width: 500px;
   background: ${({ theme }) => theme.card};
-  border: 0.1px solid #854CE6;
-  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  border: 0.1px solid #f15e00;
+  box-shadow: 
+  0 0 10px rgba(255, 122, 0, 0.5),
+  0 0 20px rgba(255, 122, 0, 0.3);
   border-radius: 16px;
   padding: 18px 36px;
   @media (max-width: 768px) {
@@ -105,7 +107,9 @@ const SkillItem = styled.div`
   align-items: center;
   justify-content: center;
   gap: 8px;
-  box-shadow: 0 2px 4px rgba(200, 150, 0, 0.6), 0 1px 1px rgba(255, 255, 255, 0.4);
+  box-shadow: 
+  0 4px 10px rgba(255, 122, 0, 0.3),
+  0 2px 4px rgba(255, 122, 0, 0.2);
   @media (max-width: 768px) {
     font-size: 14px;
     padding: 8px 12px;

@@ -125,30 +125,43 @@ const ButtonGroup = styled.div`
 `;
 
 const Button = styled.a`
-    width: 100%;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 600;
-    color: ${({ theme }) => theme.text_primary};
-    padding: 12px 16px;
-    border-radius: 8px;
-    background-color: ${({ theme }) => theme.primary};
-    ${({ dull, theme }) => dull && `
-        background-color: ${theme.bgLight};
-        color: ${theme.text_secondary};
-        &:hover {
-            background-color: ${({ theme }) => theme.bg + 99};
-        }
-    `}
-    cursor: pointer;
-    text-decoration: none;
-    transition: all 0.5s ease;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  padding: 12px 16px;
+  border-radius: 8px;
+
+  background-color: #ff7a00; /* orange */
+  box-shadow: 0 4px 12px rgba(255, 122, 0, 0.4);
+
+  ${({ dull }) => dull && `
+    background-color: #2a2a2a;
+    color: #a0a4ab;
+
     &:hover {
-        background-color: ${({ theme }) => theme.primary + 99};
+      background-color: #333;
     }
-    @media only screen and (max-width: 600px) {
-        font-size: 12px;
-    }
+  `}
+
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #ff8c1a; /* lighter orange */
+    box-shadow: 0 6px 16px rgba(255, 122, 0, 0.5);
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    transform: scale(0.98);
+  }
+
+  @media only screen and (max-width: 600px) {
+    font-size: 12px;
+  }
 `;
 
 
