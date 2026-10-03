@@ -58,7 +58,7 @@ export const Bio = {
   name: "Divya Gaurav",
   roles: ["Frontend Developer", "Full Stack Developer", "Programmer"],
   description:
-    "2.5+ years building web products that people actually enjoy using. I specialise in React and Next.js — from architecting state management to shipping pixel-perfect UIs. Currently exploring AI-powered frontend experiences.",
+    "3+ years building web products that people actually enjoy using. I specialise in React and Next.js — from architecting state management to shipping pixel-perfect UIs. Currently exploring AI-powered frontend experiences.",
   github: "https://github.com/DivyaGaurav21",
   resume:
     "https://drive.google.com/file/d/1lq2oB1HvQ0V5GXRPXZB1aRaN8rwrpBDA/view?usp=sharing",
