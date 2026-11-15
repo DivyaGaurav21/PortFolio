@@ -90,7 +90,6 @@ export const skills = [
       { name: "Generative AI" },
       { name: "OpenAI API" },
       { name: "LLM APIs" },
-      { name: "Streaming" },
       { name: "Function/Tool Calling" },
       { name: "RAG Basics" },
       { name: "Prompt Engineering" },
