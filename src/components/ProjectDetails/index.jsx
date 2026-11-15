@@ -18,16 +18,27 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
           <button className="project-dialog__close" type="button" onClick={closeModal} aria-label="Close project details">
             <CloseRounded />
           </button>
-          <img className="project-dialog__image" src={project?.image} alt={project?.title || ''} />
+          {project?.image ? (
+            <img className="project-dialog__image" src={project.image} alt={project.title || ''} />
+          ) : (
+            <div className="project-dialog__image project-dialog__image--placeholder" aria-hidden="true">
+              {project?.title}
+            </div>
+          )}
           <div className="project-dialog__body">
             <h2 className="project-dialog__title" id="project-details-title">{project?.title}</h2>
-            <p className="project-dialog__date">{project?.date}</p>
+            {project?.date && <p className="project-dialog__date">{project.date}</p>}
             <div className="project-dialog__tags">
               {project?.tags.map((tag) => (
                 <span className="project-dialog__tag" key={tag}>{tag}</span>
               ))}
             </div>
             <p className="project-dialog__description">{project?.description}</p>
+            {project?.details?.length > 0 && (
+              <ul className="project-dialog__details">
+                {project.details.map((detail) => <li key={detail}>{detail}</li>)}
+              </ul>
+            )}
             <div className="project-dialog__actions">
               <a className="button button--secondary" href={project?.github} target="_blank" rel="noreferrer">
                 View Code

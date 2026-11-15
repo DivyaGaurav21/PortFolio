@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { Snackbar } from '@mui/material';
 import Reveal from '../Reveal';
+import { Bio } from '../../data/constant';
 import './Contact.css';
 
 const Contact = () => {
@@ -46,7 +47,12 @@ const Contact = () => {
       <Reveal className="contact-layout" amount={0.12}>
         <div className="contact-aside">
           <span className="contact-aside__mark" aria-hidden="true">✳</span>
-          <h3>Email Me 🚀</h3>
+          <h3>Let's connect</h3>
+          <div className="contact-aside__details">
+            <a href={`mailto:${Bio.email}`}>{Bio.email}</a>
+            <a href={`tel:${Bio.phone.replace(/\s+/g, '')}`}>{Bio.phone}</a>
+            <span>{Bio.location}</span>
+          </div>
         </div>
         <form className="contact-form" ref={form} onSubmit={handleSubmit}>
           <label className="sr-only" htmlFor="contact-email">Your Email</label>

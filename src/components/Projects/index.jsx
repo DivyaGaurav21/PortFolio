@@ -10,7 +10,7 @@ const Projects = ({ setOpenModal }) => {
         <span className="section-heading__eyebrow" aria-hidden="true">03</span>
         <h2 className="section-heading__title">Projects</h2>
         <p className="section-heading__description">
-          I have worked on a wide range of web applications. Here are some of my projects.
+          Selected full-stack products, including a test series platform and an AI-powered movie discovery app.
         </p>
       </Reveal>
       <div className="projects-grid">

@@ -106,6 +106,21 @@
   object-fit: contain;
 }
 
+.skill-chip__fallback {
+  display: grid;
+  width: 34px;
+  height: 34px;
+  flex: 0 0 34px;
+  place-items: center;
+  border: 1px solid rgb(255 161 120 / 22%);
+  border-radius: 9px;
+  background: rgb(255 121 87 / 9%);
+  color: var(--color-accent-bright);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
 @media (max-width: 760px) {
   .skills-grid {
     grid-template-columns: 1fr;
@@ -124,6 +139,12 @@
   }
 
   .skill-chip img {
+    width: 29px;
+    height: 29px;
+    flex-basis: 29px;
+  }
+
+  .skill-chip__fallback {
     width: 29px;
     height: 29px;
     flex-basis: 29px;

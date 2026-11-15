@@ -10,7 +10,7 @@ const Education = () => (
       <span className="section-heading__eyebrow" aria-hidden="true">04</span>
       <h2 className="section-heading__title">Education</h2>
       <p className="section-heading__description">
-        My education has been a journey of self-discovery and growth. My educational details are as follows.
+        B.Tech in Electrical Engineering with a Computer Science minor, alongside certified full-stack web development training.
       </p>
     </Reveal>
     <ol className="timeline timeline--education">

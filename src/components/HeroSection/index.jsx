@@ -32,6 +32,14 @@ const HeroSection = () => {
       <div className="hero-grid" aria-hidden="true" />
       <div className="hero-inner section-container">
         <div className="hero-copy">
+          <m.p
+            className="hero-kicker"
+            initial={shouldReduceMotion ? false : { opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.45, delay: shouldReduceMotion ? 0 : 0.08, ease: 'easeOut' }}
+          >
+            Full-stack developer | 3+ years in software development
+          </m.p>
           <m.h1
             className="hero-title"
             initial={initial}

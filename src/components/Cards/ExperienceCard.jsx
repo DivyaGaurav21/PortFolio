@@ -3,7 +3,13 @@ import './ExperienceCard.css';
 const ExperienceCard = ({ experience }) => (
   <article className="experience-card">
     <div className="experience-card__header">
-      <img className="experience-card__image" src={experience.img} alt={experience.company} loading="lazy" />
+      {experience.img ? (
+        <img className="experience-card__image" src={experience.img} alt={experience.company} loading="lazy" />
+      ) : (
+        <span className="experience-card__image experience-card__image--placeholder" aria-hidden="true">
+          {experience.company.slice(0, 1)}
+        </span>
+      )}
       <div className="experience-card__identity">
         <h3 className="experience-card__role">{experience.role}</h3>
         <p className="experience-card__company">{experience.company}</p>

@@ -48,6 +48,16 @@
   object-fit: contain;
 }
 
+.experience-card__image--placeholder {
+  display: grid;
+  place-items: center;
+  background: linear-gradient(145deg, #30251f, #17191f);
+  color: var(--color-accent-bright);
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
 .experience-card__identity {
   min-width: 0;
 }

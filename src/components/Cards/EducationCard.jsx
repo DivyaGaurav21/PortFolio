@@ -10,8 +10,12 @@ const EducationCard = ({ education }) => (
         <p className="education-card__date">{education.date}</p>
       </div>
     </div>
-    <p className="education-card__grade"><b>Grade: </b>{education.grade}</p>
-    <p className="education-card__description">{education.desc}</p>
+    {education.grade && (
+      <p className="education-card__grade"><b>Grade: </b>{education.grade}</p>
+    )}
+    {education.desc && (
+      <p className="education-card__description">{education.desc}</p>
+    )}
   </article>
 );
 

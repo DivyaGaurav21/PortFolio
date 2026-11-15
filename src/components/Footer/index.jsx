@@ -1,5 +1,4 @@
 import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { Bio } from '../../data/constant';
@@ -20,7 +19,6 @@ const Footer = () => (
       </nav>
       <div className="site-footer__socials">
         <a href={Bio.facebook} target="display" rel="noreferrer" aria-label="Facebook"><FacebookIcon /></a>
-        <a href={Bio.twitter} target="display" rel="noreferrer" aria-label="Twitter"><TwitterIcon /></a>
         <a href={Bio.linkedin} target="display" rel="noreferrer" aria-label="LinkedIn"><LinkedInIcon /></a>
         <a href={Bio.insta} target="display" rel="noreferrer" aria-label="Instagram"><InstagramIcon /></a>
       </div>

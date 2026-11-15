@@ -68,6 +68,24 @@
   letter-spacing: -0.045em;
 }
 
+.contact-aside__details {
+  position: relative;
+  display: grid;
+  gap: 7px;
+  margin-top: 15px;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  overflow-wrap: anywhere;
+}
+
+.contact-aside__details a {
+  transition: color 180ms ease;
+}
+
+.contact-aside__details a:hover {
+  color: var(--color-accent-bright);
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;

@@ -8,7 +8,7 @@ const Skills = () => (
       <span className="section-heading__eyebrow" aria-hidden="true">01</span>
       <h2 className="section-heading__title">Skills</h2>
       <p className="section-heading__description">
-        Here are some of my skills on which I have been working on for the past 1.5 years.
+        Technologies I use across frontend and backend development, APIs, cloud, and testing.
       </p>
     </Reveal>
     <div className="skills-grid">
@@ -21,7 +21,13 @@ const Skills = () => (
           <div className="skill-list">
             {skill.skills.map((item) => (
               <div className="skill-chip" key={item.name}>
-                <img src={item.image} alt="" loading="lazy" />
+                {item.image ? (
+                  <img src={item.image} alt="" loading="lazy" />
+                ) : (
+                  <span className="skill-chip__fallback" aria-hidden="true">
+                    {item.name.slice(0, 2).toUpperCase()}
+                  </span>
+                )}
                 <span>{item.name}</span>
               </div>
             ))}

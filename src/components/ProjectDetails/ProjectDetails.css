@@ -8,17 +8,20 @@
 }
 
 .project-modal__viewport {
-  position: absolute;
+  position: fixed;
   inset: 0;
   display: grid;
-  overflow-y: auto;
+  overflow: hidden;
   place-items: center;
-  padding: 28px;
+  padding: 20px;
 }
 
 .project-dialog {
   position: relative;
-  width: min(100%, 840px);
+  display: grid;
+  width: min(100%, 760px);
+  height: min(720px, calc(100dvh - 40px));
+  grid-template-rows: auto minmax(0, 1fr);
   overflow: hidden;
   border: 1px solid var(--color-border-strong);
   border-radius: 27px;
@@ -30,8 +33,8 @@
 .project-dialog__close {
   position: absolute;
   z-index: 2;
-  top: 16px;
-  right: 16px;
+  top: 12px;
+  right: 12px;
   display: grid;
   width: 42px;
   height: 42px;
@@ -52,12 +55,29 @@
 
 .project-dialog__image {
   width: 100%;
-  max-height: 420px;
+  height: clamp(160px, 28vh, 230px);
+  max-height: 230px;
   background: #1c2028;
   object-fit: cover;
 }
 
+.project-dialog__image--placeholder {
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(ellipse at 75% 20%, rgb(183 163 255 / 28%), transparent 36%),
+    radial-gradient(ellipse at 20% 85%, rgb(255 121 87 / 26%), transparent 42%),
+    linear-gradient(135deg, #1c2028, #111318);
+  color: rgb(244 243 239 / 86%);
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 5vw, 2.6rem);
+  font-weight: 600;
+}
+
 .project-dialog__body {
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
   padding: clamp(24px, 5vw, 42px);
 }
 
@@ -101,6 +121,20 @@
   line-height: 1.9;
 }
 
+.project-dialog__details {
+  display: grid;
+  gap: 10px;
+  margin: 18px 0 0;
+  padding-left: 21px;
+  color: #b7bac2;
+  font-size: 0.9rem;
+  line-height: 1.75;
+}
+
+.project-dialog__details li::marker {
+  color: var(--color-accent-bright);
+}
+
 .project-dialog__actions {
   display: flex;
   flex-wrap: wrap;
@@ -122,17 +156,22 @@
 
 @media (max-width: 540px) {
   .project-modal__viewport {
-    place-items: start center;
-    padding: 14px;
+    padding: 12px;
   }
 
   .project-dialog {
+    width: 100%;
+    height: min(680px, calc(100dvh - 24px));
     border-radius: 20px;
   }
 
   .project-dialog__image {
-    min-height: 190px;
-    aspect-ratio: 1.4;
+    height: clamp(120px, 24vh, 170px);
+    max-height: 170px;
+  }
+
+  .project-dialog__body {
+    padding: 20px;
   }
 
   .project-dialog__actions {
