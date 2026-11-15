@@ -1,0 +1,141 @@
+.project-modal {
+  z-index: 40;
+}
+
+.project-modal .MuiBackdrop-root {
+  background: rgb(3 4 6 / 78%);
+  backdrop-filter: blur(9px);
+}
+
+.project-modal__viewport {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  overflow-y: auto;
+  place-items: center;
+  padding: 28px;
+}
+
+.project-dialog {
+  position: relative;
+  width: min(100%, 840px);
+  overflow: hidden;
+  border: 1px solid var(--color-border-strong);
+  border-radius: 27px;
+  background: #111318;
+  box-shadow: 0 40px 120px rgb(0 0 0 / 65%);
+  animation: dialog-enter 260ms var(--ease-out) both;
+}
+
+.project-dialog__close {
+  position: absolute;
+  z-index: 2;
+  top: 16px;
+  right: 16px;
+  display: grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border: 1px solid rgb(255 255 255 / 20%);
+  border-radius: 50%;
+  background: rgb(9 10 13 / 73%);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 180ms ease, transform 180ms var(--ease-out);
+}
+
+.project-dialog__close:hover {
+  background: var(--color-accent);
+  color: #160c0a;
+  transform: rotate(90deg);
+}
+
+.project-dialog__image {
+  width: 100%;
+  max-height: 420px;
+  background: #1c2028;
+  object-fit: cover;
+}
+
+.project-dialog__body {
+  padding: clamp(24px, 5vw, 42px);
+}
+
+.project-dialog__title {
+  margin: 0;
+  color: var(--color-text);
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 4vw, 2.65rem);
+  font-weight: 600;
+  letter-spacing: -0.055em;
+  line-height: 1.12;
+}
+
+.project-dialog__date {
+  margin: 8px 0 0;
+  color: var(--color-dim);
+  font-size: 0.85rem;
+}
+
+.project-dialog__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.project-dialog__tag {
+  padding: 6px 11px;
+  border: 1px solid rgb(183 163 255 / 23%);
+  border-radius: var(--radius-pill);
+  background: rgb(183 163 255 / 7%);
+  color: #c4b8ff;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.project-dialog__description {
+  margin: 22px 0 0;
+  color: #c2c4cb;
+  font-size: 0.96rem;
+  line-height: 1.9;
+}
+
+.project-dialog__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+@keyframes dialog-enter {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.985);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (max-width: 540px) {
+  .project-modal__viewport {
+    place-items: start center;
+    padding: 14px;
+  }
+
+  .project-dialog {
+    border-radius: 20px;
+  }
+
+  .project-dialog__image {
+    min-height: 190px;
+    aspect-ratio: 1.4;
+  }
+
+  .project-dialog__actions {
+    flex-direction: column;
+  }
+}

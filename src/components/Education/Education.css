@@ -1,0 +1,14 @@
+.education-section {
+  padding-block: var(--section-space) clamp(62px, 8vw, 104px);
+}
+
+.timeline--education {
+  max-width: 1000px;
+  margin-inline: auto;
+}
+
+@media (max-width: 680px) {
+  .timeline--education .timeline__item {
+    grid-template-columns: minmax(0, 1fr) 24px;
+  }
+}

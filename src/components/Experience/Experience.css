@@ -1,0 +1,14 @@
+.experience-section {
+  padding-block: clamp(54px, 7vw, 90px) var(--section-space);
+}
+
+.timeline--experience {
+  max-width: 1000px;
+  margin-inline: auto;
+}
+
+@media (max-width: 680px) {
+  .experience-section {
+    padding-top: 40px;
+  }
+}
